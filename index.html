@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <title> Naruto - O Caminho do Ninja </title>
+
+    <style>
+        html{
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background-color: #171717;
+            color: white;
+            font-family: Arial;
+            margin: 25px;
+        }
+
+        #inicio {
+            background-color: #292929;
+            text-align: center;
+            padding: 25px;
+            border: 2px solid #ff7518;
+            box-shadow: 3px 3px 10px black;
+        }
+
+        h1 {
+            color: #ff7518;
+            font-size: 40px;
+        }
+
+        h2 {
+            color: #ff7518;
+            border-bottom: 2px solid #a83232;
+            padding-bottom: 10px;
+        }
+
+        h3 {
+            color: #ffb347;
+        }
+
+        p {
+            font-size: 16px;
+            text-align: justify;
+            line-height: 1.5;
+        }
+
+        .subtitulo {
+            color: #cccccc;
+            text-align: center;
+        }
+
+        .capaanime {
+            width: 230px;
+            height: 230px;
+            border-radius: 50%;
+            border: 4px solid #ff7518;
+            box-shadow: 3px 3px 10px black;
+        }
+
+        #principal {
+            display: block;
+            margin: auto;
+        }
+
+        .personagem {
+            width: 170px;
+            height: 170px;
+            border-radius: 50%;
+            border: 3px solid #a83232;
+            box-shadow: 3px 3px 8px black;
+        }
+
+        .card {
+            background-color: #292929;
+            width: 200px;
+            padding: 15px;
+            margin: 12px;
+            border: 1px solid #a83232;
+            border-radius: 15px;
+            text-align: center;
+            display: inline-block;
+            vertical-align: top;
+        }
+
+        .card p {
+            text-align: center;
+        }
+
+        #akatsuki {
+            background-color: #292929;
+            padding: 20px;
+            border: 2px solid #a83232;
+            border-radius: 15px;
+            text-align: center;
+        }
+
+        #akatsuki img {
+            width: 280px;
+            height: 200px;
+            border-radius: 15px;
+            box-shadow: 3px 3px 10px black;
+        }
+
+        li {
+            padding: 5px;
+        }
+
+        .frase {
+            color: #ff7518;
+            font-size: 22px;
+            text-align: center;
+            font-weight: bold;
+            font-family:cursive;
+        }
+
+        .cla {
+    background-color: #292929;
+    padding: 15px;
+    margin: 15px;
+    border: 2px solid #ff7518;
+    border-radius: 15px;
+    text-align: center;
+        }
+
+        .cla img {
+        width: 160px;
+        height: 160px;
+        border-radius: 50%;
+        border: 3px solid #ff7518;
+        box-shadow: 3px 3px 8px black;
+        }
+
+        .inimigo {
+        background-color: #292929;
+        padding: 15px;
+        margin: 15px;
+        border: 2px solid #a83232;
+        border-radius: 15px;
+        }
+
+        .inimigo img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    border: 3px solid #a83232;
+    box-shadow: 3px 3px 8px black;
+        }
+
+        a {
+            color: #ff7518;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: white;
+        }
+
+        #voltar {
+            text-align: center;
+            padding: 20px;
+        }
+        
+
+    </style>
+
+</head>
+<body>
+
+    <h1 id="inicio">NARUTO UZUMAKI</h1>
+
+    <p class="subtitulo">
+        A jornada de um ninja que nunca desistiu dos seus sonhos.
+    </p>
+
+    <hr>
+
+    <h2>Sobre o anime</h2>
+
+    <img src="naruto.jpg" class="capaanime" alt="Naruto" id="principal">
+
+    <p>
+        Naruto é um anime japonês criado por Masashi Kishimoto.
+        A história acompanha Naruto Uzumaki, um jovem ninja
+        da Vila Oculta da Folha que sonha em se tornar Hokage,
+        o líder de sua vila.
+    </p>
+
+    <p>
+        Durante sua jornada, Naruto enfrenta diversos desafios,
+        faz grandes amizades e conhece inimigos poderosos.
+        Mesmo sendo rejeitado por muitas pessoas, ele nunca
+        desiste de seus sonhos.
+    </p>
+
+    <hr>
+
+    <h2>Personagens principais</h2>
+
+    <p>
+        Conheça alguns dos personagens mais importantes
+        da história:
+    </p>
+
+    <p class="card">
+
+        <img src="foto naruto.jpg" class="personagem" alt="Naruto Uzumaki">
+
+        <h3>Naruto Uzumaki</h3>
+
+        Um ninja alegre e determinado que deseja
+        se tornar Hokage.
+    </p>
+
+    <p class="card">
+
+        <img src="sasuke uchiha.jpg" class="personagem">
+
+        <h3>Sasuke Uchiha</h3>
+
+        Um ninja habilidoso que busca poder
+        para alcançar seus objetivos.
+    </p>
+
+
+    <p class="card">
+
+        <img src="sakura haruno.jpg" class="personagem">
+
+        <h3>Sakura Haruno</h3>
+
+        Uma ninja inteligente que desenvolve
+        grandes habilidades médicas.
+    </p>
+
+    <p class="card">
+
+        <img src="kakashi hatake.jpg" class="personagem">
+
+        <h3>Kakashi Hatake</h3>
+
+        O professor do Time 7, conhecido
+        como o Ninja Copiador.
+    </p>
+
+    <hr>
+
+    <h2>A organização Akatsuki</h2>
+
+    <p>
+        A Akatsuki é uma organização formada por ninjas
+        extremamente poderosos. Seus integrantes são
+        conhecidos pelos mantos pretos com nuvens vermelhas.
+    </p>
+
+    <p id="akatsuki">
+
+        <img src="akatsuki.jpg" alt="Akatsuki">
+
+        <br><br>
+
+        Entre seus integrantes estão:
+
+        <br><br>
+
+        <strong> Obito Uchiha, Itachi Uchiha, Kisame, Zetsu, Kakuzu,
+        Pain, Konan, Sasori, Hidan e Deidara.</strong>
+
+    </p>
+
+    <hr>
+
+    <h2>As cinco grandes vilas ninjas</h2>
+
+    <p>
+        O mundo de Naruto possui cinco grandes vilas,
+        cada uma com suas próprias características.
+    </p>
+
+    <ol>
+        <li>Konohagakure - Vila Oculta da Folha.</li>
+        <li>Sunagakure - Vila Oculta da Areia.</li>
+        <li>Kirigakure - Vila Oculta da Névoa.</li>
+        <li>Kumogakure - Vila Oculta da Nuvem.</li>
+        <li>Iwagakure - Vila Oculta da Pedra.</li>
+    </ol>
+
+    <hr>
+
+    <h2>Os clãs mais poderosos de Naruto</h2>
+
+    <p>
+    No universo de Naruto existem diversos clãs ninja,
+    cada um com suas próprias habilidades, histórias
+    e técnicas especiais.
+    </p>
+
+    <p class="cla">
+
+    <img src="cla uchiha.jpg" alt="Clã Uchiha">
+
+    <h3>Clã Uchiha</h3>
+
+    Um dos clãs mais conhecidos da Vila da Folha.
+    Seus integrantes possuem o Sharingan,
+    uma habilidade ocular muito poderosa.
+
+    </p>
+
+    <p class="cla">
+
+    <img src="clã hyuuga.jpg" alt="clã Hyuga">
+
+    <h3>Clã Hyuga</h3>
+
+    Conhecido pelo Byakugan, uma habilidade
+    que permite enxergar através de objetos
+    e perceber o fluxo de chakra.
+
+    </p>
+
+    <p class="cla">
+
+    <img src="clã uzumaki.jpg" alt="Clã Uzumaki">
+
+    <h3>Clã Uzumaki</h3>
+
+    O Clã Uzumaki é conhecido por sua grande
+    vitalidade, resistência e técnicas de selamento.
+
+    </p>
+
+    <p class="cla">
+
+    <img src="cla senju.jpg" alt="Clã Senju">
+
+    <h3>Clã Senju</h3>
+
+    Um dos clãs fundadores de Konoha,
+    conhecido por sua força e grande habilidade ninja.
+
+    </p>
+
+    <hr>
+
+    <h2>Inimigos mais poderosos</h2>
+
+    <p>
+    Ao longo da história, Naruto enfrenta diversos
+    adversários perigosos. Alguns deles possuem
+    habilidades extraordinárias e grande poder.
+    </p>
+
+    <p class="inimigo">
+
+    <img src="Madara Uchiha.jpg" alt="Madara Uchiha">
+
+    <h3>Madara Uchiha</h3>
+
+    Um dos ninjas mais poderosos da história.
+    Possui habilidades extraordinárias e
+    um enorme domínio sobre o Sharingan.
+
+    </p>
+
+    <p class="inimigo">
+
+    <img src="pain.jpg" alt="Pain">
+
+    <h3>Pain</h3>
+
+    Líder da Akatsuki, conhecido pelos poderes
+    do Rinnegan e pelas destruições que causou.
+
+    </p>
+
+    <p class="inimigo">
+
+    <img src="orochimaru.jpg" alt="Orochimaru">
+
+    <h3>Orochimaru</h3>
+
+    Um dos lendários Sannin, conhecido por
+    seus experimentos e busca pela imortalidade.
+
+    </p>
+
+    <p class="inimigo">
+
+    <img src="obito.jpg" alt="Obito Uchiha">
+
+    <h3>Obito Uchiha</h3>
+
+    Um ninja que teve um papel importante
+    nos acontecimentos da Quarta Grande Guerra Ninja.
+
+    </p>
+
+    <hr>
+
+    <h2>Quer conhecer mais sobre Naruto?</h2>
+
+    <p>
+    Se você deseja descobrir mais sobre os personagens,
+    clãs, técnicas, batalhas e histórias do universo ninja,
+    visite também este site:
+    </p>
+
+    <p id="voltar">
+    <a href="https://naruto.fandom.com/pt-br/wiki/Wiki_Naruto"
+    target="_blank">
+        Conheça mais sobre o universo de Naruto →
+    </a>
+    </p>
+
+    <hr>
+
+    <p class="frase">
+        "Eu nunca volto atrás na minha palavra.
+        Esse é o meu jeito ninja!" - Naruto Uzumaki
+    </p>
+<hr>
+    <p id="voltar">
+        <a href="#inicio">Voltar para o início ↑</a>
+    </p>
+    <hr>
+
+</body>
+</html>
